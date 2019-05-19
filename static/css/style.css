@@ -1,0 +1,24 @@
+.main-content {
+}
+
+.container {
+  margin: 1rem auto 3rem auto;
+}
+
+.content-container {
+  padding: 0 3rem;
+}
+
+.mine {
+  font-family: 'work sans', sans-serif !important;
+  color: #000;
+}
+
+.header {
+  padding: 0 6rem;
+}
+
+#hy-icon {
+  font-size: 40px;
+  text-transform: capitalize;
+}

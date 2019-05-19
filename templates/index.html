@@ -1,0 +1,58 @@
+<!-- templates/index.html -->  
+<html>  
+  <head>
+    <title>Hyeonjung Ko</title>
+
+
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit-icons.min.js"></script>
+		<!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/css/uikit.min.css" />
+
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:600" rel="stylesheet">
+		<link rel="stylesheet" href="/static/css/style.css" type="text/css"/>
+  </head>
+
+  <body>
+		<div class="uk-container">
+
+			<nav class="uk-navbar-container uk-navbar-transparent container" uk-navbar>
+        <div class="uk-navbar-left">
+          <ul class="uk-navbar-nav">
+						<li class="uk-active"><a class="mine" id="hy-icon" href="/">Hyeonjung Ko</a></li>
+          </ul>
+         </div>
+
+				<div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+            <li>
+							<span uk-icon="icon: link; ratio: 1.5"></span>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a class="mine" href="https://github.com/hyeonjungko"><span uk-icon="github"></span> Github</a></li>
+                  <li><a class="mine" href="#"><span uk-icon="file-text"></span> Resume</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+			<div class= "uk-container">
+        <p class="uk-h3 mine header">About</p>
+			  <div class= "mine content-container">
+				  <p class="uk-h4 mine">Software Developer</p>
+				</div>
+			  <div class= "mine content-container">
+          <p class="uk-h3 mine header">Projects</p>
+				</div>
+      </div>
+
+			<div uk-sticky="offset: 100"></div>
+
+
+		</div>
+  </body>
+</html>  
