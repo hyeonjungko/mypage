@@ -1,24 +1,72 @@
-.main-content {
+@font-face {
+    font-family: 'SpaceGrotesk-SemiBold';
+    src: url('../fonts/SpaceGrotesk-SemiBold.woff2') format('woff2'),
+         url('../fonts/SpaceGrotesk-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'SpaceGrotesk-Regular';
+    src: url('../fonts/SpaceGrotesk-Regular.woff2') format('woff2'),
+         url('../fonts/SpaceGrotesk-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'SpaceGrotesk-Medium';
+    src: url('../fonts/SpaceGrotesk-Medium.woff2') format('woff2'),
+         url('../fonts/SpaceGrotesk-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'SpaceGrotesk-Light';
+    src: url('../fonts/SpaceGrotesk-Light.woff2') format('woff2'),
+         url('../fonts/SpaceGrotesk-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'SpaceGrotesk-Bold';
+    src: url('../fonts/SpaceGrotesk-Bold.woff2') format('woff2'),
+         url('../fonts/SpaceGrotesk-Bold.woff') format('woff');
 }
 
-.container {
-  margin: 1rem auto 3rem auto;
+html {
+    font-family: 'SpaceGrotesk-Regular';
+    color: #1E15BC;
 }
 
-.content-container {
-  padding: 0 3rem;
+body {
+    font-size: 100%;
+    background-color: #E0F5E7;
 }
 
-.mine {
-  font-family: 'work sans', sans-serif !important;
-  color: #000;
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    font-style: italic;
 }
 
-.header {
-  padding: 0 6rem;
+header {
+    font-family: 'SpaceGrotesk-SemiBold';
+    font-size: 2.5em;
+    padding: 0.5em 1em;
 }
 
-#hy-icon {
-  font-size: 40px;
-  text-transform: capitalize;
+footer {
+    font-family: 'SpaceGrotesk-Light';
+}
+
+.header-left {
+}
+
+.header-right {
+    float: right;
+}
+.nav-items {
+    font-family: 'SpaceGrotesk-Light';
+    list-style: none;
+    font-size: 0.5em;
+    line-height: 3em;
+}
+
+.main {
+    width: 60%;
+    font-size: 2.3em;
+    margin:2.5em auto;
 }
