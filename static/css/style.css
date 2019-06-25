@@ -26,12 +26,13 @@
 
 html {
     font-family: 'SpaceGrotesk-Regular';
-    color: #1E15BC;
+    /*color: #1E15BC;*/
+    color: #000000;
 }
 
 body {
     font-size: 100%;
-    background-color: #E0F5E7;
+    background-color: #FDF7E9;
 }
 
 a {
@@ -53,10 +54,12 @@ footer {
 }
 
 .header-left {
+    position: fixed;
 }
 
 .header-right {
     float: right;
+    font-size: 0.8em;
 }
 .nav-items {
     font-family: 'SpaceGrotesk-Light';
@@ -65,8 +68,50 @@ footer {
     line-height: 3em;
 }
 
+.email-container {
+
+    position: fixed;
+    bottom: 5em;
+    left: 5em;
+}
+
+#email {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
 .main {
     width: 60%;
-    font-size: 2.3em;
     margin:2.5em auto;
+}
+.main-title {
+    font-family: 'SpaceGrotesk-Medium';
+    font-size: 30px;
+}
+
+.section {
+    margin: 25em 0 0 0;
+    text-align: center;
+}
+.main-text {
+    text-align: left;
+}
+
+#intro-hi {
+    margin-top: 10em;
+    margin-bottom: 0;
+    margin-left: 4px;
+    font-size: 20px;
+}
+
+#intro {
+    margin-top: 0;
+    font-size: 70px;
+}
+
+#line {
+    margin-left: 0.6em;
+    height: 160px;
+    width: 0em;
+    border: 0.6px solid #000000;
 }
